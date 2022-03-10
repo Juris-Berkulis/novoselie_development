@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Novoselie Development</title>
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="header__item header__logoWrapper">
+                <img class="header__logoImg" src="img/logo.png" alt="logo">
+            </div>
+            <div class="header__item header__menuWrapper">
+                <div class="header__menuWrapperLine">
+                    <div class="header__menuLinkWrapper">
+                        <a class="header__menuLink" href="#">История</a>
+                    </div>
+                    <div class="header__menuLinkWrapper">
+                        <a class="header__menuLink" href="#">О группе компаний</a>
+                    </div>
+                    <div class="header__menuLinkWrapper">
+                        <a class="header__menuLink" href="#">Новости и акции</a>
+                    </div>
+                </div>
+                <div class="header__menuWrapperLine">
+                    <div class="header__menuLinkWrapper">
+                        <a class="header__menuLink" href="#">Тендеры</a>
+                    </div>
+                    <div class="header__menuLinkWrapper">
+                        <a class="header__menuLink" href="#">Коммерческие помещения</a>
+                    </div>
+                    <div class="header__menuLinkWrapper">
+                        <a class="header__menuLink" href="#">Контакты</a>
+                    </div>
+                </div>
+            </div>
+            <button class="header__item header__projectsBtn">Проекты</button>
+            <div class="header__item header__liveWrapper">
+                <svg class="header__liveSvg" width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4.64288" cy="4.5" r="4.5" fill="#DA552F"/>
+                </svg>
+                <span class="header__liveText">Live</span>
+            </div>
+            <div class="header__item header__phoneWrapper">
+                <button class="header__phoneBtn">Заказать звонок</button>
+                <a class="header__phoneLink" href="tel:+79001111111">+7-900-111-11-11</a>
+            </div>
+            <svg class="header__item header__btnSvg" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.6214 0C12.0554 0 10.5524 0.750409 9.57141 1.93624C8.59041 0.750409 7.08741 0 5.52141 0C2.74941 0 0.571411 2.24196 0.571411 5.09537C0.571411 8.59727 3.63141 11.4507 8.26641 15.7864L9.57141 17L10.8764 15.7771C15.5114 11.4507 18.5714 8.59727 18.5714 5.09537C18.5714 2.24196 16.3934 0 13.6214 0ZM9.66141 14.406L9.57141 14.4986L9.48141 14.406C5.19741 10.4131 2.37141 7.77275 2.37141 5.09537C2.37141 3.24251 3.72141 1.85286 5.52141 1.85286C6.90741 1.85286 8.25741 2.77003 8.73441 4.03924H10.4174C10.8854 2.77003 12.2354 1.85286 13.6214 1.85286C15.4214 1.85286 16.7714 3.24251 16.7714 5.09537C16.7714 7.77275 13.9454 10.4131 9.66141 14.406Z" fill="#5E6076"/>
+            </svg>
+            <svg class="header__item header__btnSvg" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.4354 10.6918H11.6676L11.3954 10.4294C12.348 9.32133 12.9214 7.88279 12.9214 6.3179C12.9214 2.82847 10.093 0 6.60354 0C3.11412 0 0.285645 2.82847 0.285645 6.3179C0.285645 9.80732 3.11412 12.6358 6.60354 12.6358C8.16844 12.6358 9.60697 12.0623 10.715 11.1098L10.9775 11.3819V12.1498L15.8374 17L17.2856 15.5517L12.4354 10.6918ZM6.60354 10.6918C4.1833 10.6918 2.22961 8.73814 2.22961 6.3179C2.22961 3.89766 4.1833 1.94397 6.60354 1.94397C9.02378 1.94397 10.9775 3.89766 10.9775 6.3179C10.9775 8.73814 9.02378 10.6918 6.60354 10.6918Z" fill="#5E6076"/>
+            </svg>
+            <button class="header__item header__menuBtn">
+                <svg class="header__btnSvg header__btnSvg-firsr" width="23" height="1" viewBox="0 0 23 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 0C0.723858 0 0.5 0.223858 0.5 0.5C0.5 0.776142 0.723858 1 1 1V0ZM22 1C22.2761 1 22.5 0.776142 22.5 0.5C22.5 0.223858 22.2761 0 22 0V1ZM1 1H22V0H1V1Z" fill="#DA552F"/>
+                </svg>
+                <svg class="header__btnSvg" width="23" height="1" viewBox="0 0 23 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 0C0.723858 0 0.5 0.223858 0.5 0.5C0.5 0.776142 0.723858 1 1 1V0ZM22 1C22.2761 1 22.5 0.776142 22.5 0.5C22.5 0.223858 22.2761 0 22 0V1ZM1 1H22V0H1V1Z" fill="#DA552F"/>
+                </svg>
+                <svg class="header__btnSvg" width="23" height="1" viewBox="0 0 23 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 0C0.723858 0 0.5 0.223858 0.5 0.5C0.5 0.776142 0.723858 1 1 1V0ZM22 1C22.2761 1 22.5 0.776142 22.5 0.5C22.5 0.223858 22.2761 0 22 0V1ZM1 1H22V0H1V1Z" fill="#DA552F"/>
+                </svg>
+            </button>
+        </header>
+        <section class="page">
+            <h1 class="page__title">Найдено 12 проектов</h1>
+            <div class="page__body">
+                <div class="page__bodyLeft">
+                    <div class="page__bodyLeftTop">
+                        <div class="page__card page__card-first">
+                            <div class="page__cardImgWrapper page__cardImgWrapper-first">
+                                <img class="page__cardImg" src="img/rc_vyborgskiy.jpg" alt="ЖК Выборгский">
+                                <p class="page__cardImgText page__cardImgText-topLeft">Мебилировка зависит от сценария</p>
+                                <p class="page__cardImgText page__cardImgText-bottomLeft">
+                                    <svg class="page__cardImgCircleSvg" width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4.64288" cy="4.5" r="4.5" fill="#DA552F"/>
+                                    </svg>
+                                    <span class="page__cardImgTextLive">Live</span>
+                                </p>
+                                <p class="page__cardImgText page__cardImgText-bottomRight">134 предложения</p>
+                                <div class="page__cardImgSliderPanel">
+                                    <button class="page__cardImgSliderBtn page__cardImgSliderBtn-firstCard">
+                                        <div class="page__cardImgSliderBtnLine"></div>
+                                    </button>
+                                    <button class="page__cardImgSliderBtn page__cardImgSliderBtn-firstCard">
+                                        <div class="page__cardImgSliderBtnLine"></div>
+                                    </button>
+                                    <button class="page__cardImgSliderBtn page__cardImgSliderBtn-firstCard">
+                                        <div class="page__cardImgSliderBtnLine"></div>
+                                    </button>
+                                    <button class="page__cardImgSliderBtn page__cardImgSliderBtn-firstCard">
+                                        <div class="page__cardImgSliderBtnLine"></div>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="page__cardInfo page__cardInfo-first">
+                                <div class="page__cardInfoTop page__cardInfoTop-first">
+                                    <div class="page__cardName page__cardName-first">
+                                        <h3 class="page__cardTitle">ЖК ВЫБОРГСКИЙ</h3>
+                                        <p class="page__cardAvailability">
+                                            <span class="page__cardAvailabilityText">м. Московская</span>
+                                            <svg class="page__cardAvailabilityPersonSvg" width="7" height="15" viewBox="0 0 7 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.90344 2.228C5.7987 3.07104 5.03002 3.66961 4.18651 3.56493C3.34292 3.46024 2.74403 2.69197 2.84876 1.84891C2.9535 1.00578 3.72218 0.407204 4.56577 0.511882C5.40926 0.616567 6.00815 1.38484 5.90342 2.22797" fill="#B4B4B4"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.25651 3.81441L5.06442 4.05536C5.42603 4.05536 5.66703 4.41678 5.66703 4.77812C5.48622 6.22365 5.54649 7.12712 6.7518 8.0305C7.35441 8.51231 6.69152 9.41578 6.08891 8.93397C5.7273 8.69302 5.4863 8.39191 5.24523 8.09073C5.18496 8.45215 5.12469 8.81349 4.70288 8.93397C5.90818 10.259 6.75187 11.9455 6.99287 13.6923C7.11341 14.5957 5.66711 14.7764 5.54657 13.873C5.42603 12.6081 4.88369 11.4035 4.10027 10.3795C3.55793 11.7648 2.8347 13.0298 1.87055 14.2343C1.26794 14.957 0.183179 14.0536 0.785791 13.3308C1.81028 12.0659 2.47317 10.6806 3.01551 9.23503C2.6539 8.87361 1.99102 8.45203 2.05128 7.97014L2.35263 5.5609C1.62948 6.16319 1.2076 6.88596 1.14733 7.9099C1.08706 8.6929 -0.0579714 8.63267 0.00229735 7.84966C0.122837 5.92225 1.2076 4.71756 2.83473 3.8744C2.95527 3.81416 3.07581 3.75393 3.25661 3.81416L3.25651 3.81441Z" fill="#B4B4B4"/>
+                                            </svg>
+                                            <span class="page__cardAvailabilityText">20 мин.</span>
+                                        </p>
+                                    </div>
+                                    <button class="page__cardContacrsBtn">Контакты</button>
+                                </div>
+                                <ul class="page__cardVatiantsUl">
+                                    <li class="page__cardVatiantLi page__cardVatiantLi-first">
+                                        <h4 class="page__cardVatiantTitle">Участок 1</h4>
+                                        <div class="page__cardVatiantInfo">
+                                            <p class="page__cardVatiantDescription">
+                                                <span class="page__cardVatiantBuilding">1 корпус.</span>
+                                                <span class="page__cardVatiantConstructionDate">3 квартал 2023</span>
+                                            </p>
+                                            <p class="page__cardVatiantPrice">
+                                                <span class="page__cardVatiantPriceText">от 4,74 млн. &#8381;</span>
+                                                <svg class="page__cardVatiantPriceSvg" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9 0.5L5 4.5L1 0.5" stroke="#DA552F"/>
+                                                </svg>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="page__cardVatiantLi">
+                                        <h4 class="page__cardVatiantTitle">Участок 2</h4>
+                                        <div class="page__cardVatiantInfo">
+                                            <p class="page__cardVatiantDescription">
+                                                <span class="page__cardVatiantBuilding">1 корпус.</span>
+                                                <span class="page__cardVatiantConstructionDate">4 квартал 2023</span>
+                                            </p>
+                                            <p class="page__cardVatiantPrice">
+                                                <span class="page__cardVatiantPriceText">от 4,74 млн. &#8381;</span>
+                                                <svg class="page__cardVatiantPriceSvg" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9 0.5L5 4.5L1 0.5" stroke="#DA552F"/>
+                                                </svg>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="page__cardVatiantLi">
+                                        <h4 class="page__cardVatiantTitle">Участок 3</h4>
+                                        <div class="page__cardVatiantInfo">
+                                            <p class="page__cardVatiantDescription">
+                                                <span class="page__cardVatiantBuilding">1 корпус.</span>
+                                                <span class="page__cardVatiantConstructionDate">1 квартал 2024</span>
+                                            </p>
+                                            <p class="page__cardVatiantPrice">
+                                                <span class="page__cardVatiantPriceText">от 4,74 млн. &#8381;</span>
+                                                <svg class="page__cardVatiantPriceSvg" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9 0.5L5 4.5L1 0.5" stroke="#DA552F"/>
+                                                </svg>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="page__cardVatiantLi page__cardVatiantLi-last">
+                                        <h4 class="page__cardVatiantTitle">Участок 4</h4>
+                                        <div class="page__cardVatiantInfo">
+                                            <p class="page__cardVatiantDescription">
+                                                <span class="page__cardVatiantBuilding">1 корпус.</span>
+                                                <span class="page__cardVatiantConstructionDate">2 квартал 2024</span>
+                                            </p>
+                                            <p class="page__cardVatiantPrice">
+                                                <span class="page__cardVatiantPriceText">от 4,74 млн. &#8381;</span>
+                                                <svg class="page__cardVatiantPriceSvg" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9 0.5L5 4.5L1 0.5" stroke="#DA552F"/>
+                                                </svg>
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="page__card">
+                            <div class="page__cardImgWrapper">
+                                <img class="page__cardImg" src="img/rc_partnera.jpg" alt="ЖК Партнера">
+                                <p class="page__cardImgText page__cardImgText-topLeft">Мебилировка зависит от сценария</p>
+                                <p class="page__cardImgText page__cardImgText-bottomLeft">
+                                    <svg class="page__cardImgCircleSvg" width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4.64288" cy="4.5" r="4.5" fill="#DA552F"/>
+                                    </svg>
+                                    <span class="page__cardImgTextLive">Live</span>
+                                </p>
+                                <p class="page__cardImgText page__cardImgText-bottomRight">134 предложения</p>
+                                <div class="page__cardImgSliderPanel">
+                                    <button class="page__cardImgSliderBtn">
+                                        <div class="page__cardImgSliderBtnLine"></div>
+                                    </button>
+                                    <button class="page__cardImgSliderBtn">
+                                        <div class="page__cardImgSliderBtnLine"></div>
+                                    </button>
+                                    <button class="page__cardImgSliderBtn">
+                                        <div class="page__cardImgSliderBtnLine"></div>
+                                    </button>
+                                    <button class="page__cardImgSliderBtn">
+                                        <div class="page__cardImgSliderBtnLine"></div>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="page__cardInfo">
+                                <div class="page__cardInfoTop">
+                                    <div class="page__cardName">
+                                        <h3 class="page__cardTitle">ЖК ПАРТНЕРА</h3>
+                                        <p class="page__cardAvailability">
+                                            <span class="page__cardAvailabilityText">м. Московская</span>
+                                            <svg class="page__cardAvailabilityPersonSvg" width="7" height="15" viewBox="0 0 7 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.90344 2.228C5.7987 3.07104 5.03002 3.66961 4.18651 3.56493C3.34292 3.46024 2.74403 2.69197 2.84876 1.84891C2.9535 1.00578 3.72218 0.407204 4.56577 0.511882C5.40926 0.616567 6.00815 1.38484 5.90342 2.22797" fill="#B4B4B4"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.25651 3.81441L5.06442 4.05536C5.42603 4.05536 5.66703 4.41678 5.66703 4.77812C5.48622 6.22365 5.54649 7.12712 6.7518 8.0305C7.35441 8.51231 6.69152 9.41578 6.08891 8.93397C5.7273 8.69302 5.4863 8.39191 5.24523 8.09073C5.18496 8.45215 5.12469 8.81349 4.70288 8.93397C5.90818 10.259 6.75187 11.9455 6.99287 13.6923C7.11341 14.5957 5.66711 14.7764 5.54657 13.873C5.42603 12.6081 4.88369 11.4035 4.10027 10.3795C3.55793 11.7648 2.8347 13.0298 1.87055 14.2343C1.26794 14.957 0.183179 14.0536 0.785791 13.3308C1.81028 12.0659 2.47317 10.6806 3.01551 9.23503C2.6539 8.87361 1.99102 8.45203 2.05128 7.97014L2.35263 5.5609C1.62948 6.16319 1.2076 6.88596 1.14733 7.9099C1.08706 8.6929 -0.0579714 8.63267 0.00229735 7.84966C0.122837 5.92225 1.2076 4.71756 2.83473 3.8744C2.95527 3.81416 3.07581 3.75393 3.25661 3.81416L3.25651 3.81441Z" fill="#B4B4B4"/>
+                                            </svg>
+                                            <span class="page__cardAvailabilityText">20 мин.</span>
+                                        </p>
+                                    </div>
+                                    <button class="page__cardContacrsBtn">Контакты</button>
+                                </div>
+                                <ul class="page__cardVatiantsUl">
+                                    <li class="page__cardVatiantLi page__cardVatiantLi-first">
+                                        <h4 class="page__cardVatiantTitle">Участок 1</h4>
+                                        <div class="page__cardVatiantInfo">
+                                            <p class="page__cardVatiantDescription">
+                                                <span class="page__cardVatiantBuilding">1 корпус.</span>
+                                                <span class="page__cardVatiantConstructionDate">3 квартал 2023</span>
+                                            </p>
+                                            <p class="page__cardVatiantPrice">
+                                                <span class="page__cardVatiantPriceText">от 4,74 млн. &#8381;</span>
+                                                <svg class="page__cardVatiantPriceSvg" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9 0.5L5 4.5L1 0.5" stroke="#DA552F"/>
+                                                </svg>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="page__cardVatiantLi page__cardVatiantLi-last">
+                                        <h4 class="page__cardVatiantTitle">Участок 2</h4>
+                                        <div class="page__cardVatiantInfo">
+                                            <p class="page__cardVatiantDescription">
+                                                <span class="page__cardVatiantBuilding">1 корпус.</span>
+                                                <span class="page__cardVatiantConstructionDate">4 квартал 2023</span>
+                                            </p>
+                                            <p class="page__cardVatiantPrice">
+                                                <span class="page__cardVatiantPriceText">от 4,74 млн. &#8381;</span>
+                                                <svg class="page__cardVatiantPriceSvg" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9 0.5L5 4.5L1 0.5" stroke="#DA552F"/>
+                                                </svg>
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="page__card">
+                            <div class="page__cardImgWrapper">
+                                <img class="page__cardImg" src="img/rc_egoist.jpg" alt="ЖК Эгоист">
+                                <p class="page__cardImgText page__cardImgText-topLeft">Мебилировка зависит от сценария</p>
+                                <p class="page__cardImgText page__cardImgText-bottomLeft">
+                                    <svg class="page__cardImgCircleSvg" width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="4.64288" cy="4.5" r="4.5" fill="#DA552F"/>
+                                    </svg>
+                                    <span class="page__cardImgTextLive">Live</span>
+                                </p>
+                                <p class="page__cardImgText page__cardImgText-bottomRight">134 предложения</p>
+                                <div class="page__cardImgSliderPanel">
+                                    <button class="page__cardImgSliderBtn">
+                                        <div class="page__cardImgSliderBtnLine"></div>
+                                    </button>
+                                    <button class="page__cardImgSliderBtn">
+                                        <div class="page__cardImgSliderBtnLine"></div>
+                                    </button>
+                                    <button class="page__cardImgSliderBtn">
+                                        <div class="page__cardImgSliderBtnLine"></div>
+                                    </button>
+                                    <button class="page__cardImgSliderBtn">
+                                        <div class="page__cardImgSliderBtnLine"></div>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="page__cardInfo">
+                                <div class="page__cardInfoTop">
+                                    <div class="page__cardName">
+                                        <h3 class="page__cardTitle">ЖК ЭГОИСТ</h3>
+                                        <p class="page__cardAvailability">
+                                            <span class="page__cardAvailabilityText">м. Московская</span>
+                                            <svg class="page__cardAvailabilityPersonSvg" width="7" height="15" viewBox="0 0 7 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.90344 2.228C5.7987 3.07104 5.03002 3.66961 4.18651 3.56493C3.34292 3.46024 2.74403 2.69197 2.84876 1.84891C2.9535 1.00578 3.72218 0.407204 4.56577 0.511882C5.40926 0.616567 6.00815 1.38484 5.90342 2.22797" fill="#B4B4B4"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.25651 3.81441L5.06442 4.05536C5.42603 4.05536 5.66703 4.41678 5.66703 4.77812C5.48622 6.22365 5.54649 7.12712 6.7518 8.0305C7.35441 8.51231 6.69152 9.41578 6.08891 8.93397C5.7273 8.69302 5.4863 8.39191 5.24523 8.09073C5.18496 8.45215 5.12469 8.81349 4.70288 8.93397C5.90818 10.259 6.75187 11.9455 6.99287 13.6923C7.11341 14.5957 5.66711 14.7764 5.54657 13.873C5.42603 12.6081 4.88369 11.4035 4.10027 10.3795C3.55793 11.7648 2.8347 13.0298 1.87055 14.2343C1.26794 14.957 0.183179 14.0536 0.785791 13.3308C1.81028 12.0659 2.47317 10.6806 3.01551 9.23503C2.6539 8.87361 1.99102 8.45203 2.05128 7.97014L2.35263 5.5609C1.62948 6.16319 1.2076 6.88596 1.14733 7.9099C1.08706 8.6929 -0.0579714 8.63267 0.00229735 7.84966C0.122837 5.92225 1.2076 4.71756 2.83473 3.8744C2.95527 3.81416 3.07581 3.75393 3.25661 3.81416L3.25651 3.81441Z" fill="#B4B4B4"/>
+                                            </svg>
+                                            <span class="page__cardAvailabilityText">20 мин.</span>
+                                        </p>
+                                    </div>
+                                    <button class="page__cardContacrsBtn">Контакты</button>
+                                </div>
+                                <ul class="page__cardVatiantsUl">
+                                    <li class="page__cardVatiantLi page__cardVatiantLi-first">
+                                        <h4 class="page__cardVatiantTitle">Участок 1</h4>
+                                        <div class="page__cardVatiantInfo">
+                                            <p class="page__cardVatiantDescription">
+                                                <span class="page__cardVatiantBuilding">1 корпус.</span>
+                                                <span class="page__cardVatiantConstructionDate">3 квартал 2023</span>
+                                            </p>
+                                            <p class="page__cardVatiantPrice">
+                                                <span class="page__cardVatiantPriceText">от 4,74 млн. &#8381;</span>
+                                                <svg class="page__cardVatiantPriceSvg" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9 0.5L5 4.5L1 0.5" stroke="#DA552F"/>
+                                                </svg>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="page__cardVatiantLi page__cardVatiantLi-last">
+                                        <h4 class="page__cardVatiantTitle">Участок 2</h4>
+                                        <div class="page__cardVatiantInfo">
+                                            <p class="page__cardVatiantDescription">
+                                                <span class="page__cardVatiantBuilding">1 корпус.</span>
+                                                <span class="page__cardVatiantConstructionDate">4 квартал 2023</span>
+                                            </p>
+                                            <p class="page__cardVatiantPrice">
+                                                <span class="page__cardVatiantPriceText">от 4,74 млн. &#8381;</span>
+                                                <svg class="page__cardVatiantPriceSvg" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9 0.5L5 4.5L1 0.5" stroke="#DA552F"/>
+                                                </svg>
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page__bodyLeftBottom">
+                        <img class="page__advertisingImg" src="img/street.jpg" alt="street">
+                        <div class="page__advertisingInfo">
+                            <img class="page__advertisingLogoImg" src="img/logo_gorodskie_kvartaly.png" alt="logo_gk">
+                            <div class="page__advertisingDescription">
+                                <div class="page__advertisingData">
+                                    <p class="page__advertisingDataTop">4</p>
+                                    <p class="page__advertisingDataBottom">проекта</p>
+                                </div>
+                                <div class="page__advertisingData">
+                                    <p class="page__advertisingDataTop">678</p>
+                                    <p class="page__advertisingDataBottom">предложений</p>
+                                </div>
+                                <div class="page__advertisingData">
+                                    <p class="page__advertisingDataTop">3,26</p>
+                                    <p class="page__advertisingDataBottom">от млн. &#8381;</p>
+                                </div>
+                            </div>
+                            <button class="page__advertisingBtn">Перейти к проектам</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="page__bodyRight">
+                    <div class="page__filter">
+                        <div class="page__filterPanel">
+                            <button class="page__filterBtn">Студия</button>
+                            <button class="page__filterBtn">1</button>
+                            <button class="page__filterBtn">2</button>
+                            <button class="page__filterBtn">3+</button>
+                        </div>
+                        <div class="page__filterPanel page__filterPanel-price">
+                            <p class="page__filterPrice">
+                                <span class="page__filterPriceText">Цена от</span>
+                                <span class="page__filterPriceNumber">1 450 000</span>
+                            </p>
+                        </div>
+                        <div class="page__filterPanel page__filterPanel-price">
+                            <p class="page__filterPrice">
+                                <span class="page__filterPriceText">до</span>
+                                <span class="page__filterPriceNumber">20 000 000</span>
+                            </p>
+                            <p class="page__filterPriceMeasureUnit">&#8381;</p>
+                        </div>
+                        <div class="page__filterPanel">
+                            <input class="page__filterPriceRangeInput" type="range" name="inputPrice" id="inputPrice">
+                        </div>
+                        <div class="page__filterPanel page__filterPanel-checkboxes">
+                            <div class="page__filterCheckbox">
+                                <input class="page__filterCheckboxInput" type="checkbox" name="inputCheckbox1" id="inputCheckbox1">
+                                <label class="page__filterCheckboxLabel" for="inputCheckbox1">1 квартал 2022</label>
+                            </div>
+                            <div class="page__filterCheckbox">
+                                <input class="page__filterCheckboxInput" type="checkbox" name="inputCheckbox2" id="inputCheckbox2">
+                                <label class="page__filterCheckboxLabel" for="inputCheckbox2">2 квартал 2022</label>
+                            </div>
+                            <div class="page__filterCheckbox">
+                                <input class="page__filterCheckboxInput" type="checkbox" name="inputCheckbox3" id="inputCheckbox3">
+                                <label class="page__filterCheckboxLabel" for="inputCheckbox3">3 квартал 2022</label>
+                            </div>
+                            <div class="page__filterCheckbox">
+                                <input class="page__filterCheckboxInput" type="checkbox" name="inputCheckbox4" id="inputCheckbox4">
+                                <label class="page__filterCheckboxLabel" for="inputCheckbox4">До конца года</label>
+                            </div>
+                        </div>
+                        <div class="page__filterPanel page__filterPanel-search">
+                            <input class="page__filterSearchInput" type="text" placeholder="Район метро">
+                            <svg class="page__filterSearchSvg" width="18" height="17" viewBox="0 0 18 17" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.4354 10.6918H11.6676L11.3954 10.4294C12.348 9.32133 12.9214 7.88279 12.9214 6.3179C12.9214 2.82847 10.093 0 6.60354 0C3.11412 0 0.285645 2.82847 0.285645 6.3179C0.285645 9.80732 3.11412 12.6358 6.60354 12.6358C8.16844 12.6358 9.60697 12.0623 10.715 11.1098L10.9775 11.3819V12.1498L15.8374 17L17.2856 15.5517L12.4354 10.6918ZM6.60354 10.6918C4.1833 10.6918 2.22961 8.73814 2.22961 6.3179C2.22961 3.89766 4.1833 1.94397 6.60354 1.94397C9.02378 1.94397 10.9775 3.89766 10.9775 6.3179C10.9775 8.73814 9.02378 10.6918 6.60354 10.6918Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="page__filterProjects">
+                        <span class="page__filterProjectsText">20 проектов</span>
+                        <button class="page__filterProjectsBtn">Показать</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="footer__topLeft">
+                <div class="footer__columnWrapper">
+                    <p class="footer__columnTitle">ГК Новоселье</p>
+                    <ul class="footer__columnUl">
+                        <li class="footer__columnLi">ЖК Дуэт</li>
+                        <li class="footer__columnLi">ЖК Эпсилон</li>
+                        <li class="footer__columnLi">ЖК ЕТА</li>
+                        <li class="footer__columnLi">ЖК Уютный</li>
+                    </ul>
+                </div>
+                <div class="footer__columnWrapper">
+                    <p class="footer__columnTitle">Партнеры</p>
+                    <ul class="footer__columnUl"l>
+                        <li class="footer__columnLi">ЖК Эгоист</li>
+                        <li class="footer__columnLi">ЖК Выборгский</li>
+                        <li class="footer__columnLi">ЖК Партнера</li>
+                    </ul>
+                </div>
+                <div class="footer__columnWrapper">
+                    <ul class="footer__columnUl">
+                        <li class="footer__columnLi-aboutCompany">О компании</li>
+                        <li class="footer__columnLi-aboutCompany">Пресс-релизы</li>
+                        <li class="footer__columnLi-aboutCompany">Контакты</li>
+                        <li class="footer__columnLi-aboutCompany">Тендеры</li>
+                        <li class="footer__columnLi-aboutCompany">Коммерческие помещения</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__topRight">
+                <div class="footer__columnWrapper">
+                    <ul class="footer__columnUl">
+                        <li class="footer__columnLi">
+                            <a class="footer__columnLiLink" href="#">vkontakte</a>
+                        </li>
+                        <li class="footer__columnLi">
+                            <a class="footer__columnLiLink" href="#">facebook</a>
+                        </li>
+                        <li class="footer__columnLi">
+                            <a class="footer__columnLiLink" href="#">instagram</a>
+                        </li>
+                        <li class="footer__columnLi">
+                            <a class="footer__columnLiLink" href="#">youtube</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__columnWrapper footer__columnWrapper-form">
+                    <p class="footer__columnText">Подпишитесь на обновления по проектам</p>
+                    <form class="footer__columnForm">
+                        <input class="footer__columnInput" type="text" placeholder="Email">
+                        <button class="footer__columnBtnSubmit" type="submit">Подписаться</button>
+                    </form>
+                    <p class="footer__columnInfo">Нажимая кнопку «Подписаться», вы даете свое согласие на обработку персональных данных</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__bottomText">&#169; n-gk.ru, 2022</p>
+            <p class="footer__bottomText">Разработка сайта – cake.ru</p>
+        </div>
+    </footer>
+</body>
+</html>
