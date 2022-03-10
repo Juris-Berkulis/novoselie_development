@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js"></script>
     <title>Novoselie Development</title>
 </head>
 <body>
@@ -76,7 +77,7 @@
                     <div class="page__bodyLeftTop">
                         <div class="page__card page__card-first">
                             <div class="page__cardImgWrapper page__cardImgWrapper-first">
-                                <img class="page__cardImg" src="img/rc_vyborgskiy.jpg" alt="ЖК Выборгский">
+                                <img class="page__cardImg" id="img_rc_vyborgskiy" src="img/rc_vyborgskiy_1.jpg" alt="ЖК Выборгский">
                                 <p class="page__cardImgText page__cardImgText-topLeft">Мебилировка зависит от сценария</p>
                                 <p class="page__cardImgText page__cardImgText-bottomLeft">
                                     <svg class="page__cardImgCircleSvg" width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,16 +87,16 @@
                                 </p>
                                 <p class="page__cardImgText page__cardImgText-bottomRight">134 предложения</p>
                                 <div class="page__cardImgSliderPanel">
-                                    <button class="page__cardImgSliderBtn page__cardImgSliderBtn-firstCard">
+                                    <button class="page__cardImgSliderBtn page__cardImgSliderBtn-firstCard" onclick="openImg('rc_vyborgskiy', '1')">
                                         <div class="page__cardImgSliderBtnLine"></div>
                                     </button>
-                                    <button class="page__cardImgSliderBtn page__cardImgSliderBtn-firstCard">
+                                    <button class="page__cardImgSliderBtn page__cardImgSliderBtn-firstCard" onclick="openImg('rc_vyborgskiy', '2')">
                                         <div class="page__cardImgSliderBtnLine"></div>
                                     </button>
-                                    <button class="page__cardImgSliderBtn page__cardImgSliderBtn-firstCard">
+                                    <button class="page__cardImgSliderBtn page__cardImgSliderBtn-firstCard" onclick="openImg('rc_vyborgskiy', '3')">
                                         <div class="page__cardImgSliderBtnLine"></div>
                                     </button>
-                                    <button class="page__cardImgSliderBtn page__cardImgSliderBtn-firstCard">
+                                    <button class="page__cardImgSliderBtn page__cardImgSliderBtn-firstCard" onclick="openImg('rc_vyborgskiy', '4')">
                                         <div class="page__cardImgSliderBtnLine"></div>
                                     </button>
                                 </div>
@@ -181,7 +182,7 @@
                         </div>
                         <div class="page__card">
                             <div class="page__cardImgWrapper">
-                                <img class="page__cardImg" src="img/rc_partnera.jpg" alt="ЖК Партнера">
+                                <img class="page__cardImg" id="img_rc_partnera" src="img/rc_partnera_1.jpg" alt="ЖК Партнера">
                                 <p class="page__cardImgText page__cardImgText-topLeft">Мебилировка зависит от сценария</p>
                                 <p class="page__cardImgText page__cardImgText-bottomLeft">
                                     <svg class="page__cardImgCircleSvg" width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -191,16 +192,16 @@
                                 </p>
                                 <p class="page__cardImgText page__cardImgText-bottomRight">134 предложения</p>
                                 <div class="page__cardImgSliderPanel">
-                                    <button class="page__cardImgSliderBtn">
+                                    <button class="page__cardImgSliderBtn" onclick="openImg('rc_partnera', '1')">
                                         <div class="page__cardImgSliderBtnLine"></div>
                                     </button>
-                                    <button class="page__cardImgSliderBtn">
+                                    <button class="page__cardImgSliderBtn" onclick="openImg('rc_partnera', '2')">
                                         <div class="page__cardImgSliderBtnLine"></div>
                                     </button>
-                                    <button class="page__cardImgSliderBtn">
+                                    <button class="page__cardImgSliderBtn" onclick="openImg('rc_partnera', '3')">
                                         <div class="page__cardImgSliderBtnLine"></div>
                                     </button>
-                                    <button class="page__cardImgSliderBtn">
+                                    <button class="page__cardImgSliderBtn" onclick="openImg('rc_partnera', '4')">
                                         <div class="page__cardImgSliderBtnLine"></div>
                                     </button>
                                 </div>
@@ -256,7 +257,7 @@
                         </div>
                         <div class="page__card">
                             <div class="page__cardImgWrapper">
-                                <img class="page__cardImg" src="img/rc_egoist.jpg" alt="ЖК Эгоист">
+                                <img class="page__cardImg" id="img_rc_egoist" src="img/rc_egoist_1.jpg" alt="ЖК Эгоист">
                                 <p class="page__cardImgText page__cardImgText-topLeft">Мебилировка зависит от сценария</p>
                                 <p class="page__cardImgText page__cardImgText-bottomLeft">
                                     <svg class="page__cardImgCircleSvg" width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -266,16 +267,16 @@
                                 </p>
                                 <p class="page__cardImgText page__cardImgText-bottomRight">134 предложения</p>
                                 <div class="page__cardImgSliderPanel">
-                                    <button class="page__cardImgSliderBtn">
+                                    <button class="page__cardImgSliderBtn" onclick="openImg('rc_egoist', '1')">
                                         <div class="page__cardImgSliderBtnLine"></div>
                                     </button>
-                                    <button class="page__cardImgSliderBtn">
+                                    <button class="page__cardImgSliderBtn" onclick="openImg('rc_egoist', '2')">
                                         <div class="page__cardImgSliderBtnLine"></div>
                                     </button>
-                                    <button class="page__cardImgSliderBtn">
+                                    <button class="page__cardImgSliderBtn" onclick="openImg('rc_egoist', '3')">
                                         <div class="page__cardImgSliderBtnLine"></div>
                                     </button>
-                                    <button class="page__cardImgSliderBtn">
+                                    <button class="page__cardImgSliderBtn" onclick="openImg('rc_egoist', '4')">
                                         <div class="page__cardImgSliderBtnLine"></div>
                                     </button>
                                 </div>
