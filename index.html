@@ -364,18 +364,20 @@
                         <div class="page__filterPanel page__filterPanel-price">
                             <p class="page__filterPrice">
                                 <span class="page__filterPriceText">Цена от</span>
-                                <span class="page__filterPriceNumber">1 450 000</span>
+                                <span class="page__filterPriceNumber page__filterPriceNumber-min">1 450 000</span>
                             </p>
                         </div>
                         <div class="page__filterPanel page__filterPanel-price">
                             <p class="page__filterPrice">
                                 <span class="page__filterPriceText">до</span>
-                                <span class="page__filterPriceNumber">20 000 000</span>
+                                <span class="page__filterPriceNumber page__filterPriceNumber-max">20 000 000</span>
                             </p>
                             <p class="page__filterPriceMeasureUnit">&#8381;</p>
                         </div>
-                        <div class="page__filterPanel">
-                            <input class="page__filterPriceRangeInput" type="range" name="inputPrice" id="inputPrice">
+                        <div class="page__filterPanel page__filterPanel-range">
+                            <!-- <input class="page__filterPriceRangeInput" type="range" name="inputPrice" id="inputPrice">-->
+                            <input class="page__filterPriceRangeInput" type="range" value="1450000" min="0" max="50000000" step="1000">
+                            <input class="page__filterPriceRangeInput" type="range" value="20000000" min="0" max="50000000" step="1000">
                         </div>
                         <div class="page__filterPanel page__filterPanel-checkboxes">
                             <div class="page__filterCheckbox">
