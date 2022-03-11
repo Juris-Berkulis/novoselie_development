@@ -22,6 +22,10 @@ const getValuesFromRangeInput = () => {
 
     const maxValueSpan = document.getElementsByClassName('page__filterPriceNumber-max')[0];
     maxValueSpan.innerHTML = `${priceRangeInputVal2}`;
+
+    const filterPriceBetweenDiv = document.getElementsByClassName('page__filterPriceBetween')[0];
+    filterPriceBetweenDiv.style.left = `${priceRangeInputVal1 / 50000000 * 100}%`;
+    filterPriceBetweenDiv.style.width = `${(priceRangeInputVal2 - priceRangeInputVal1) / 50000000 * 100}%`;
 };
 
 window.onload = () => {
